@@ -1,12 +1,25 @@
 header {
-  min-height: 416px;
+  min-height: 460px;
   background-image: url('../../img/mae-1-blur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: top;
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 6.4rem;
+}
+
+.logo-wrapper {
+  background: var(--color-main);
+  padding: 0.8rem;
+  border-radius: 2px;
+  margin-bottom: 6.4rem;
+}
+
+.logo-wrapper img {
+  width: 10rem;
 }
 
 .title-wrapper {

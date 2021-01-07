@@ -1,0 +1,54 @@
+.family {
+  min-height: 470px;
+  display: flex;
+  padding: 6.4rem;
+}
+
+.family-left,
+.family-right {
+  width: 50%;
+}
+
+.family-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.family-left::after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 140px;
+  background: var(--color-main);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+
+.family-left img {
+  width: 34.2rem;
+  height: 34.2rem;
+}
+
+.family-right,
+.family-right div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.family-right div {
+  align-items: flex-end;
+}
+
+.family-right h1 {
+  width: 349px;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 4.7rem;
+  text-align: right;
+}
