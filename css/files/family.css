@@ -46,7 +46,7 @@
 }
 
 .family-right h1 {
-  width: 349px;
+  max-width: 349px;
   font-size: 4rem;
   font-weight: bold;
   line-height: 4.7rem;

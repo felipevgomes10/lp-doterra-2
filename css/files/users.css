@@ -1,0 +1,130 @@
+.users {
+  min-height: 1017px;
+  background: var(--color-font);
+  padding: 6.4rem;
+}
+
+.users .title {
+  color: var(--color-font-white);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 3.2rem;
+}
+
+.users-benefits {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.users-benefits-left,
+.users-benefits-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.examples {
+  margin-top: 6.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.examples .title {
+  max-width: 685px;
+  text-align: center;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.slider-wrapper {
+  width: 478px;
+  height: 239px;
+  overflow: hidden;
+}
+
+.btn-left,
+.btn-right {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.btn-left {
+  left: -8.6rem;
+}
+
+.btn-right {
+  right: -8.6rem;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.slider {
+  display: flex;
+  transition: 0.5s;
+}
+
+.comment {
+  flex-shrink: 0;
+  width: 478px;
+  height: 239px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-font-white);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 1.6rem;
+}
+
+.comment-left img {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 8px;
+}
+
+.comment-left p {
+  color: var(--color-main);
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+.comment-left span:first-of-type {
+  display: block;
+  margin-top: 1.6rem;
+  font-weight: bold;
+  font-size: 1.8rem;
+  line-height: 1.9rem;
+  color: var(--color-main-dark);
+}
+
+.comment-left span:last-of-type {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  color: #c4c4c4;
+}
+
+.comment-right img {
+  width: 115px;
+  height: 115px;
+  border-radius: 50%;
+}
+
+.users .cta {
+  margin: 6.4rem auto 0;
+  width: 30rem;
+}
