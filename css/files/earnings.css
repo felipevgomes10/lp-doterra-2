@@ -1,0 +1,71 @@
+.earnings {
+  min-height: 455px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  padding: 6.4rem;
+}
+
+.earnings .title {
+  text-align: center;
+}
+
+.earnings .after::after {
+  margin: 3.2rem auto;
+}
+
+.people-img {
+  height: 200px;
+  width: 300px;
+  border-radius: 50%;
+  margin-bottom: 3.2rem;
+  border: 10px solid #eeeeee;
+}
+
+.benefits-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 56rem;
+}
+
+.benefit {
+  width: 100%;
+  background: #333333;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem 7.2rem;
+  position: relative;
+  margin-bottom: 16px;
+  transition: 0.4s;
+}
+
+.benefit:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 0 2px var(--color-main);
+}
+
+.benefit img {
+  margin-right: 8px;
+  position: absolute;
+  left: 16px;
+}
+
+.benefit p {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  max-width: 400px;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media (max-width: 425px) {
+  .benefit p {
+    font-size: 1.4rem;
+  }
+}
