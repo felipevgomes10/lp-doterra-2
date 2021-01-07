@@ -32,7 +32,7 @@ header {
 
 .title-wrapper .title {
   color: var(--color-font-white);
-  width: 295px;
+  max-width: 295px;
   text-align: right;
   font-weight: bold;
   font-size: 4rem;
