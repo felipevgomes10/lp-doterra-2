@@ -1,0 +1,31 @@
+header {
+  min-height: 416px;
+  background-image: url('../../img/mae-1-blur.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.title-wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-wrapper .title {
+  color: var(--color-font-white);
+  width: 295px;
+  text-align: right;
+  font-weight: bold;
+  font-size: 4rem;
+  line-height: 4.7rem;
+}
+
+.title-wrapper .cta {
+  margin-left: 12rem;
+}
