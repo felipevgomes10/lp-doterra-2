@@ -96,7 +96,7 @@
 }
 
 .comment-left p {
-  color: var(--color-main);
+  color: var(--color-main-dark);
   font-weight: 500;
   font-size: 1.4rem;
   line-height: 1.9rem;
