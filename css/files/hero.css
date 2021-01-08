@@ -3,15 +3,19 @@ header {
   background-image: url('../../img/mae-1-blur.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: top;
+  background-position: top right;
+  padding: 6.4rem;
+}
+
+header .window {
   display: flex;
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
-  padding: 6.4rem;
 }
 
 .logo-wrapper {
+  display: inline-block;
   background: var(--color-main);
   padding: 0.8rem;
   border-radius: 2px;
@@ -35,10 +39,29 @@ header {
   max-width: 295px;
   text-align: right;
   font-weight: bold;
-  font-size: 4rem;
-  line-height: 4.7rem;
 }
 
 .title-wrapper .cta {
   margin-left: 12rem;
+}
+
+@media (max-width: 670px) {
+  .title-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .title-wrapper .title {
+    color: var(--color-font-white);
+    max-width: 350px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .title-wrapper .cta {
+    margin: 3.2rem auto;
+  }
 }

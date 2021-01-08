@@ -1,0 +1,38 @@
+footer div:first-child {
+  background-color: var(--color-font);
+  min-height: 225px;
+  padding: 6.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+footer div:first-child .title {
+  color: var(--color-font-white);
+  text-align: center;
+  align-items: center;
+}
+
+footer div:last-child {
+  min-height: 60px;
+  color: var(--color-main);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 1.6rem;
+  text-align: center;
+}
+
+footer div:last-child span {
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-bottom: 0.8rem;
+}
+
+footer div:last-child small {
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}

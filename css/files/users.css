@@ -4,6 +4,12 @@
   padding: 6.4rem;
 }
 
+@media (max-width: 570px) {
+  .users {
+    padding: 6.4rem 3.2rem;
+  }
+}
+
 .users .title {
   color: var(--color-font-white);
   text-align: center;
@@ -18,6 +24,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .users-benefits-left,
@@ -26,6 +34,37 @@
   justify-content: center;
   align-items: center;
   width: 50%;
+}
+
+@media (max-width: 1040px) {
+  .users-benefits {
+    flex-direction: column;
+  }
+
+  .users-benefits-right {
+    margin-top: 6.4rem;
+  }
+}
+
+@media (max-width: 670px) {
+  .users-benefits-right img {
+    width: 400px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .users-benefits-right img {
+    width: 300px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 500px) {
+  .users-benefits-left,
+  .users-benefits-right {
+    width: 100%;
+  }
 }
 
 .examples {
@@ -70,6 +109,42 @@
   transform: translateY(-50%) rotate(180deg);
 }
 
+@media (max-width: 500px) {
+  .btn-left,
+  .btn-right,
+  .btn-right img,
+  .btn-left img {
+    width: 40px;
+  }
+
+  .btn-left {
+    left: -4.6rem;
+  }
+
+  .btn-right {
+    right: -4.6rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .btn-left,
+  .btn-right {
+    position: absolute;
+    top: 100%;
+    transform: initial;
+    margin-top: 0.5rem;
+  }
+
+  .btn-left {
+    left: -0.6rem;
+  }
+
+  .btn-right {
+    right: -0.6rem;
+    transform: rotate(180deg);
+  }
+}
+
 .slider {
   display: flex;
   transition: 0.5s;
@@ -89,10 +164,38 @@
   padding: 1.6rem;
 }
 
+@media (max-width: 780px) {
+  .slider-wrapper,
+  .comment {
+    width: 378px;
+    height: 400px;
+  }
+
+  .comment {
+    flex-direction: column;
+  }
+}
+
 .comment-left img {
   width: 35px;
   height: 35px;
   margin-bottom: 4px;
+}
+
+@media (max-width: 670px) {
+  .slider-wrapper,
+  .comment {
+    width: 278px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 425px) {
+  .slider-wrapper,
+  .comment {
+    width: 278px;
+    height: 500px;
+  }
 }
 
 .comment-left p {
@@ -113,10 +216,18 @@
 }
 
 .comment-left span:last-of-type {
+  display: block;
   font-weight: 500;
   font-size: 1.2rem;
   line-height: 1.9rem;
   color: #c4c4c4;
+}
+
+@media (max-width: 670px) {
+  .comment-left p,
+  .comment-left span {
+    text-align: center;
+  }
 }
 
 .comment-right img {
@@ -128,4 +239,5 @@
 .users .cta {
   margin: 6.4rem auto 0;
   width: 30rem;
+  text-align: center;
 }
